@@ -13,4 +13,5 @@ def base_percentages(seq):
     seq = seq.upper()
     return {b: seq.count(b)/len(seq)*100 for b in 'ATGC'}
 
-print(base_percentages('ATGCATGC'))
+print(base_percentages('AATGCATGCCC'))
+
